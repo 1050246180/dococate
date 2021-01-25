@@ -1,3 +1,4 @@
 123
 321
 add func1
+code 2
