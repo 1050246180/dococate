@@ -3,3 +3,5 @@
 add func1
 code
 code 2
+"ouy"
+"ch"
