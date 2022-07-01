@@ -12,7 +12,7 @@ public class UserController {
      */
     @RequestMapping("/data")
     public String data(){
-        System.out.println("====s===============data==============");
+        System.out.println("1===================data==============");
         return "hello word";
     }
     public String login(){
