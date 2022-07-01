@@ -1,10 +1,20 @@
 package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class UserController {
-
+    /**
+     * 获取模拟数据
+     * @return
+     */
+    @RequestMapping("/data")
+    public String data(){
+        System.out.println("===================data==============");
+        return "hello word";
+    }
     public String login(){
         return "登录成功";
     }
